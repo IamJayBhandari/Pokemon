@@ -8,5 +8,5 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Output directory for build
   },
-  base: '/', // Adjust if needed based on GitHub Pages setup
+  base: '/',
 })
