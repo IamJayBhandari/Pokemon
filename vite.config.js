@@ -12,6 +12,7 @@
 // })
 // vite.config.js
 export default {
+  base: './', 
   build: {
     rollupOptions: {
       external: ['/assets/main.<hash>.js'],  // Replace <hash> with the actual hash if it's static
