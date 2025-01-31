@@ -24,7 +24,7 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Output directory
     rollupOptions: {
-      input: 'index.html', // Explicitly specify index.html for entry point
+      input: '/index.html', // Explicitly specify index.html for entry point
     },
   },
   base: '/',  // This ensures assets are loaded from the root
